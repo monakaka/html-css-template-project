@@ -224,3 +224,18 @@ nav>button {
     cursor: pointer;
     margin-top: 16px;
 }
+
+
+/* support style part  */
+.support-box {
+    width: 79%;
+    max-width: 1440px;
+    margin: 48px auto;
+}
+
+
+#support-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
