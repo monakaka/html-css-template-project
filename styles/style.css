@@ -228,14 +228,68 @@ nav>button {
 
 /* support style part  */
 .support-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)), url(/assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 79%;
     max-width: 1440px;
     margin: 48px auto;
+    border-radius: 16px;
 }
 
+.support-contents {
+    padding: 64px 48px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
 
 #support-title {
     font-size: 32px;
     font-weight: 700;
     color: #FFFFFF;
+}
+
+
+
+.support-form {
+    display: flex;
+    gap: 16px;
+}
+
+.support-form>input[type="text"] {
+    padding: 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    color: #0D132126;
+    flex-grow: 1;
+
+}
+
+.support-form>input[type="submit"] {
+    padding: 18px 19px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer styles  */
+
+footer {
+    background-color: #0D132108;
+    margin: 150px auto 0;
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 24px;
 }
