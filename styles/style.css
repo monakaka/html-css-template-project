@@ -74,6 +74,8 @@ nav>button {
     background-position: center;
     background-size: cover;
     margin-bottom: 74px;
+    display: flex;
+    align-items: center;
 }
 
 .banner-content-box {
